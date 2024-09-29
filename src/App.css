@@ -1,0 +1,89 @@
+
+.addUserForm .inputGroup {
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.addUserForm .inputGroup label {
+  margin-top: 10px;
+}
+
+.addUserForm .inputGroup input {
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.inputGroup button {
+  margin-top: 10px;
+}
+.login {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.login .btn.btn-primary {
+  width: 50%;
+}
+
+.addUser h3 {
+  text-align: center;
+  border: none !important;
+  font-weight: bold;
+  color: darkcyan;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(252, 252, 252, 0.7);
+  background-color: #FFFFFF;
+  
+}
+.outside{
+background-image: url(../src/images/background_1.jpg);
+height: 100%;
+padding-top: 10px;
+}
+.outside-123{
+  background-image: url(../src/images/top_4.jpg)
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  display: flex;
+  flex-direction: row;
+  gap: 470px;
+}
+li{
+  float: left;
+  border-right: 1px solid #81232369;
+}
+li a {
+    
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:solid;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(160, 232, 160);
+}
+
+li a:hover {
+  background-color: #12e1357a;
+}
+.active {
+  background-color: #81232369;
+}
+header{
+  font-size: 40px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 690px;
+  position: absolute;
+  top: 150px;
+  font-weight: bolder;
+  font-size: 60px;
+  color: rgb(160, 232, 160);
+}
+
