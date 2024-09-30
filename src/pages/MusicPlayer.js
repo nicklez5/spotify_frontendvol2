@@ -6,7 +6,7 @@ export default function MusicPlayer(){
     
 
     function init(){
-        const {data3} = () => axios.get(`http://localhost:8080/songs/info/` + 1,
+        const {data3} = () => axios.get(`${process.env.REACT_APP_API_URL}/songs/info/` + 1,
             {
                 params: {email: "jackson2k23@yahoo.com"},
                 headers: { 'Accept': '*/*', 'Content-Type': 'application/json' }

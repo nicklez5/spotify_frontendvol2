@@ -12,7 +12,7 @@ export default function Random() {
     };
 
     axios
-      .post('http://localhost:8080/login', loginPayload)
+      .post(`${process.env.REACT_APP_API_URL}`, loginPayload)
       .then((response) => {
         //get token from response
         const token = response.data.token;

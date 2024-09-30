@@ -112,13 +112,13 @@
     border: none;
     color: white;
     padding: 15px 32px;
-    text-align: center;
+    text-align:left;
     text-decoration:solid;
     position: absolute;
     font-size: 16px;
-    left: 1685px;
-    width: 7.5%;
-    bottom: 86.5%;
+    margin-left: 1315px;
+    top: 67.5px;
+
   }
 .button123{
     position: relative;

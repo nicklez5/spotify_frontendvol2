@@ -19,7 +19,7 @@ export default class Playlist extends React.Component {
 
     try {
       axios
-        .get(`http://localhost:8080/playlist/info`, {
+        .get(`${process.env.REACT_APP_API_URL}/playlist/info`, {
           params: { email: this.state.email },
           headers: {
             'Content-Type': 'application/json',
@@ -57,7 +57,7 @@ export default class Playlist extends React.Component {
 
   handleSubmit(event) {
     axios
-      .post('http://localhost:8080/playlist/rename', {
+      .post(`${process.env.REACT_APP_API_URL}/playlist/rename`, {
         param: {
           email: localStorage.getItem('email'),
           playlist_name: event.target.value,
@@ -79,7 +79,7 @@ export default class Playlist extends React.Component {
   handleClick = (event) => {
     console.log(event);
     axios
-      .delete('http://localhost:8080/playlist/removeSong/' + event, {
+      .delete(`${process.env.REACT_APP_API_URL}/playlist/removeSong/` + event, {
         params: { email: localStorage.getItem('email') },
       })
       .then((resp) => {

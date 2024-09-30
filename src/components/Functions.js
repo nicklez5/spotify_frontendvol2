@@ -1,6 +1,6 @@
 import axios from "axios"
 export default function deleteSong(element){
-    axios.delete(`http://localhost:8080/songs/deleteSong/` + element,{
+    axios.delete(`${process.env.REACT_APP_API_URL}/songs/deleteSong/` + element,{
         params: {email: localStorage.getItem("email")},
         headers: {
             'Content-Type': "multipart/form-data"

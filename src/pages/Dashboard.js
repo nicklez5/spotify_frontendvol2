@@ -88,7 +88,7 @@ export default class Dashboard extends React.Component{
      handleClick = (element) => {
         console.log(element)
         try{
-            axios.delete(`${process.env.REACT_APP_API_URL}` + "/songs/deleteSong/" + element ,{
+            axios.delete(`${process.env.REACT_APP_API_URL}/songs/deleteSong/` + element ,{
                 params: {email: this.state.email }
             }).then((resp) => {
                 console.log(resp)
@@ -168,9 +168,9 @@ export default class Dashboard extends React.Component{
                         
                     </tbody>
                 </table>
-                <Link to="/addMusic" className={s.button321}>Add a song</Link>
-        
-                <button to="/" onClick={() => this.logout()} className={s.buttonforever}>Log out</button>
+                <bink to="/" onClick={() => this.logout()}className={s.button321}>Logout</bink>
+                
+                <button to="/" onClick={() => window.location.href = "/addMusic"} className={s.buttonforever}>Add a song</button>
     
                 </div>
         )
