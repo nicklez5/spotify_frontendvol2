@@ -3,7 +3,7 @@
     background-color: white;
     top: 300px;
     width: 20%;
-    position: absolute;
+    position: relative;
     left: 650px;
     height:19%;
     margin: 50px 10px;
@@ -71,7 +71,7 @@ button:hover{
     font-size: 25px;
     font-family:'Courier New', Courier, monospace;
     font-weight: bolder;
-    top: 195px;
+    top: 175px;
     left: 860px;
 }
 .password2{

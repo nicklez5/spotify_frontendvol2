@@ -124,13 +124,13 @@ export default class Playlist extends React.Component {
           <div></div>
 
           {this.state.playlistname === null ? (
-            <Link to="/renamePlaylist" className={f.button321}>
+            <button to="/" className={f.button321} onClick={() => window.location.href ="/renamePlaylist"}>
               Create a playlist
-            </Link>
+            </button>
           ) : (
-            <Link to="/renamePlaylist" className={f.button321}>
+            <button to="/" className={f.button321} onClick={() => window.location.href ="/renamePlaylist"}>
               Rename Playlist
-            </Link>
+            </button>
           )}
           {this.state.playlistname === null ? (
             <h1 className={f.playlistCruise0}>Playlist not created yet</h1>

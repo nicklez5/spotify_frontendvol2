@@ -168,7 +168,7 @@ export default class Dashboard extends React.Component{
                         
                     </tbody>
                 </table>
-                <bink to="/" onClick={() => this.logout()}className={s.button321}>Logout</bink>
+                <button to="/" onClick={() => this.logout()} className={s.button321}>Logout</button>
                 
                 <button to="/" onClick={() => window.location.href = "/addMusic"} className={s.buttonforever}>Add a song</button>
     

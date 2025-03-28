@@ -4,7 +4,7 @@ import axios from 'axios'
 const spotify_url = `${process.env.REACT_APP_API_URL}/playlist`
 var email = localStorage.getItem('email')
 class PlaylistService{
-     addSongToPlaylist(id){
+    addSongToPlaylist(id){
         const form = new FormData();
         form.append('email',email)
         return axios.post(spotify_url + "/addSong/" + id, form, {headers: {'Content-Type': 'multipart/form-data'}})
