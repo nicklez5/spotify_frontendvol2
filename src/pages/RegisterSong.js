@@ -30,27 +30,38 @@ export default function AddMusic(){
                 <li className={s.li123_}><a className={s.li123_a} href="/about">Settings</a></li>
             </ul>
             
-                <header className={s.header1}>Add a song</header>
-            <Link to="/dashboard" className={s.goback}>Go back?</Link>
-            <div className={s.background123}>
-                <form className={s.addMusicForm} onSubmit={handleMusic}>
-                    <div className={s.title1}>
-                        <label htmlFor="title">Title:</label>
-                        <input onChange={e => {setTitle(e.target.value)}} type="title" placeholder="Enter your title"/> 
-                    </div>
-                    <div className={s.artist}>
-                        <label htmlFor="artist">Artist:</label>
-                        <input onChange={e => {setArtist(e.target.value)}} type="title" placeholder="Enter your artist"/> 
-                    </div>
-                    <div className={s.file}>
-                        <label htmlFor="file">File:</label>
-                        <input type="file" onChange={e => {setFile(e.target.files[0])}} placeholder="Submit the file"/>
-                    </div>
-                    <button className={s.button1} type="submit">Submit</button>
-                    {status === 'success' && (<p className={s.textsuccess}>Successfully uploaded</p>)}
-                    {status === 'error' && <p>Fail to upload</p>}
-                </form>
+                
+            
+            <div>
+                <div className={s.div1}>
+                    <header className={s.header1}>Add a song</header>
+                </div>
+                    <form className={s.addMusicForm} onSubmit={handleMusic}>
+                        <div className={s.title1}>
+                            <label htmlFor="title">Title:</label>
+                            <input onChange={e => {setTitle(e.target.value)}} type="title" placeholder="Enter your title"/> 
+                        </div>
+                        <div className={s.artist}>
+                            <label htmlFor="artist">Artist:</label>
+                            <input onChange={e => {setArtist(e.target.value)}} type="title" placeholder="Enter your artist"/> 
+                        </div>
+                        <div className={s.file}>
+                            <label htmlFor="file">File:</label>
+                            <input type="file" onChange={e => {setFile(e.target.files[0])}} placeholder="Submit the file"/>
+                        </div>
+                        <div className={s.button33}>
+                            <button className={s.button1} type="submit">Submit</button>
+                            {status === 'success' && (<p className={s.textsuccess}>Successfully uploaded</p>)}
+                            {status === 'error' && <p>Fail to upload</p>}
+                        </div>
+                        <div className={s.button34}>
+                            <Link to="/dashboard" className={s.goback}>Go back?</Link>
+                        </div>
+                        
+                    </form>
+                    
             </div>
+            <button to="/" onClick={() => this.logout()} className={s.button321}>Logout</button>
         </div>
         
     )

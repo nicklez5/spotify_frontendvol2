@@ -5,7 +5,7 @@
     flex-direction: row;
     position:fixed;
     left: 100px;
-    color: teal;
+    color: rgb(21, 216, 200);
     bottom: 100px;
 }
 .outside{
@@ -14,24 +14,35 @@
 }
 .playlistdiv{
     flex:auto;
-    flex-direction: row;
+    flex-wrap: wrap;
     margin-left: 750px;
     margin-top: 250px;
+    position: relative;
+}
+.playlist_header{
+    max-width: fit-content;
+    margin-inline: auto;
+    
+}
+.playlist_header header{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(21, 216, 200)
 }
 .title123{
     position: relative;
-    margin-left: 50px;
-    color: teal;
+    left: 265px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(21, 216, 200);
     font-family:'Courier New', Courier, monospace;
 }
 .outside2{
-    width: 100%;
-    position: relative;
-    background-image: url(../images/background2.jpg);
-    background-size:auto;
-    background-repeat:repeat;
-    height:98.5vh;
-    overflow: visible;
+    background-image: url(../images/tumblr_3.jpg);
+    background-size: cover;
+    height: 120vh;
+    
 }
 
 .button123{
@@ -41,19 +52,46 @@
     border-radius: 20px;
     margin-top: 20px;
     margin-left: 850px;
+    position: relative;
+    left: 210px;
 }
 .text123{
-    flex: auto;
-    flex-direction:row;
-
+    margin-right: auto;
+    margin-left: auto;
+    max-width: fit-content;
+    position: relative;
+    left: 210px;
 }
 .label123{
-    margin-left: 15px;
-    padding-right: 15px;
-    color: teal;
+    position: relative;
+    left: 245px;
+    padding-right: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(21, 216, 200);
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .textsuccess{
     text-align: center;
-    color: green;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: yellow;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    right: 35px;
+}
+.button321{
+    background-color: rgb(245, 126, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    padding-left: 15px;
+    font-size: 16px;
+    right: -25px;
+    top: 7.5px;
+
 }

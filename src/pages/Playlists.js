@@ -94,7 +94,10 @@ export default class Playlist extends React.Component {
       });
   };
   componentDidMount() {}
-
+  logout = () => {
+    localStorage.clear()
+    window.location.href = '/'
+  }
   render() {
     return (
       <div className={f.outside3}>
@@ -184,6 +187,7 @@ export default class Playlist extends React.Component {
             </tbody>
           </table>
         </body>
+        <button to="/" onClick={() => this.logout()} className={f.button3214}>Logout</button>
       </div>
     );
   }

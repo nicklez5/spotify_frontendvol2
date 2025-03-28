@@ -51,6 +51,20 @@
     position: absolute;
 
 }
+.button3214{
+    background-color: rgb(245, 126, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    padding-left: 15px;
+    font-size: 16px;
+    right: -25px;
+    top: 7.5px;
+
+}
 .button321{
     background-color: rgb(245, 126, 0);
     color: white;
@@ -58,8 +72,11 @@
     position: relative;
     font-size: 16px;
     margin-left: 1490px;
-    top: 50px;
+    top: 60px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    left: 210vh;
 }
 .rename_playlist123{
     position: absolute;
@@ -102,7 +119,9 @@
 .playlistCruise{
     position: relative;
     color: rgb(239, 130, 5);
-    margin-left: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 120vh;
     
 }
 .rename_playlist{

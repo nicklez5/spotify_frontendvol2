@@ -30,6 +30,10 @@ export default class Settings extends React.Component{
 
         }
     }
+    logout = () => {
+        localStorage.clear()
+        window.location.href = '/'
+      }
     
     render(){
         return (
@@ -44,10 +48,11 @@ export default class Settings extends React.Component{
                 <header className={a.div123}>Personal information</header>
             </div>
             <div>
-                <h1 className={a.h1123}>Name: <p className={a.p123}>{this.state.name}</p></h1>
-                <h1 className={a.h2123}>Email: <p className={a.p1234}>{this.state.email}</p></h1>
+                <h1 className={a.h1123}>Name: </h1><p className={a.p123}>{this.state.name}</p>
+                <h1 className={a.h2123}>Email: </h1><p className={a.p1234}>{this.state.email}</p>
             </div>
             <Link to="/" className={a.goback1}>Go back</Link>
+            <button to="/" onClick={() => this.logout()} className={a.button3214}>Logout</button>
         </div>
         )
     }

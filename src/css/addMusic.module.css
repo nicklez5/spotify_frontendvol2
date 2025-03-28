@@ -1,18 +1,33 @@
-.background123{
-    background: url(../images/top_2.jpg);
-    overflow: hidden;
-}
 .text-success{
     position: absolute;
     right: 140px;
 }
-.outside{
+.background{
     background: url(../images/top_2.jpg);
-    height:120%;
+    height: 120%;
+    overflow: hidden;
+}
+.outside{
+    background: url(../images/image_4.jpg);
+    background-size: cover;
+
 }
 .addMusicForm{
     height: 120vh;
     
+}
+.button321{
+    background-color: rgb(245,126,0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    padding-left: 15px;
+    font-size: 16px;
+    right: 5px;
+    top: 7.5px;
 }
 .title1{
     position: relative;
@@ -33,28 +48,40 @@
     margin-left: 100px;
     font-family:'Courier New', Courier, monospace;
 }
+.button33{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 10px;
+}
+.button34{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 5%;
+    padding-right: 45%;
+}
 .button1{
     position: relative;
     text-align: center;
-    margin-top: 20px;
-    margin-left: 750px;
+    
     background-color: orange;
     border-radius: 20px;
     padding: 10px;
 }
 .textsuccess{
-    position: relative;
+    position: absolute;
     text-align: center;
+    left: 45%;
     color: green;
     font-weight: 900;
     font-family:'Courier New', Courier, monospace;
 }
 .goback{
-    position: absolute;
+    position: relative;
     color: yellow;
     font-size: 25px;
-    bottom: 195px;
-    left: 45%;
+
     font-weight: bolder;
     font-family:'Courier New', Courier, monospace
 
@@ -75,9 +102,14 @@
     background-color: lightgreen;
 }
 .header1{
-    position: absolute;
+    position: relative;
     color: lightcoral;
     font-family:'Courier New', Courier, monospace;
     padding-top: 10px;
-    left: -5%;
+    right: 30%;
+}
+.div1{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right:auto;
 }

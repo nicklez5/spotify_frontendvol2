@@ -1,0 +1,52 @@
+.outside{
+    background-image: url("../images/background_1.jpg");
+    background-size: auto;
+    height: 130vh;
+    width: 500vh;
+}
+.header{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    left: 14px;
+    top: 5px;
+    color: aqua;
+    
+}
+.center_div{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    right: 1050px;
+    top: 280px;
+    color:aliceblue;
+}
+.p{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    left:  195px;
+    font-weight: 900;
+    bottom: 45px;
+    font-size: larger;
+    color: aqua;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline solid rgb(4, 245, 245) 1px;
+}
+.button321{
+    background-color: rgb(245, 126, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    padding-left: 15px;
+    font-size: 16px;
+    right: -25px;
+    top: 7.5px;
+
+}

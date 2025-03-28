@@ -21,6 +21,7 @@ export default function RenamePlaylist(){
             setStatus('error')
         }
     }
+    
     return (
         <div className={s.outside2}>
             <ul>
@@ -29,11 +30,11 @@ export default function RenamePlaylist(){
                 <li><a href="/playlists">Playlists</a></li>
                 <li><a href="/about">Settings</a></li>
             </ul>
-            <div>
+            <div className={s.playlist_header}>
                 <header>Name a playlist</header>
             </div>
-            <div className>
-                <form className="addMusicForm" onSubmit={RenamingPlaylist}>
+            <div>
+                <form onSubmit={RenamingPlaylist}>
                     <div className={s.playlistdiv}>
                         <h1 className={s.title123}>Playlist</h1>
                         <label className={s.label123} htmlFor="name">Name:</label>
@@ -45,6 +46,7 @@ export default function RenamePlaylist(){
                 </form>
                 <Link to="/playlists" className={s.goback}>Go Back</Link>
             </div>
+            <button to="/" onClick={() => {localStorage.clear(); window.location.href="/" }} className={s.button321}>logout</button>
         </div>
     )
 }

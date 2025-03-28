@@ -53,7 +53,9 @@ export default function Login() {
             </header>
         </div>
         <div>
-        <h1 className={s.login_id}>Login</h1>
+          <div>
+            <h1 className={s.login_id}>Login</h1>
+          </div>
         <form className={s.LoginUser} onSubmit={handleLogin}>
           
           <div className={s.inputGroup2} >

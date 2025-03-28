@@ -41,7 +41,7 @@
 
 
 .go_back{
-    position: absolute;
+    position: relative;
     
     
 }
@@ -59,11 +59,14 @@ button:hover{
 }
 .inputFormdiv{
     position: relative;
-    padding: 45px 300px 45px 20px;
+    padding: 45px 300px 15px 20px;
     background-color: rgb(10, 212, 253);
-    left: 685px;
-    bottom: 225px;
+    left: 900px;
+    bottom: 205px;
     border-radius: 40px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 .login_id{
     position: relative;
@@ -72,7 +75,10 @@ button:hover{
     font-family:'Courier New', Courier, monospace;
     font-weight: bolder;
     top: 175px;
-    left: 860px;
+    left: 10px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 .password2{
     position: absolute;
@@ -93,12 +99,20 @@ button:hover{
 }
 
 .go_back{
-   color: rgb(246, 255, 0);
+   color: brown;
    font-family:'Courier New', Courier, monospace;
-   position: absolute;
-   left: 55px;
-   bottom: 90px;
+   position: relative;
+   font-weight: 600;
+   left: 255px;
+   top: 490px;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: fit-content;
    
+}
+.go_back:hover{
+    color: hsl(45, 92%, 52%);
+    
 }
 .button_2{
     position: absolute;
@@ -116,7 +130,7 @@ button:hover{
     font-family:'Courier New, Courier, monospace';
     text-align: center;
     text-decoration: none;
-    position: absolute;
+    position: relative;
     font-size: 16px;
     left: 135px;
     top: 160px;
@@ -130,13 +144,16 @@ button:hover{
 .outside{
     background-image: url("../images/tumblr_2.jpg");
     background-size: cover;
-    background-position:80%;
-    height: 100vh;
+    background-position: 54%;
+    height: 150vh;
 }
 .centeredheader{
     text-align: center;             /* Set the desired width */ 
     font-size: 40px;        /* Center the element horizontally */ 
     font-family:'Courier New', Courier, monospace;
     color: rgba(77, 176, 247, 0.973);
-    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    position: relative;
 }
