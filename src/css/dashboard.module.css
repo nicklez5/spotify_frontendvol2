@@ -122,9 +122,11 @@
     text-decoration:solid;
     position: relative;
     font-size: 16px;
-    margin-left: 1365px;
-    top: 125px;
-    right: 245px
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    left: 1150px;
+    top: 150px;
 
   }
 .button123{

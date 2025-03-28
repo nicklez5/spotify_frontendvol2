@@ -1,9 +1,8 @@
 .outside_layer{
     width: 100%;
     background-image: url("../images/background_1.jpg");
-    background-size: center;
+    background-size:cover;
     background-position: 100%;
-    background-repeat: repeat;
     height: 100vh;
 }
 .li123{

@@ -9,7 +9,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: fit-content;
-    left: 14px;
+    right: 15px;
     top: 5px;
     color: aqua;
     
@@ -19,7 +19,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: fit-content;
-    right: 1050px;
+    right: 1150px;
     top: 280px;
     color:aliceblue;
 }
@@ -28,7 +28,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: fit-content;
-    left:  195px;
+    left:  185px;
     font-weight: 900;
     bottom: 45px;
     font-size: larger;
